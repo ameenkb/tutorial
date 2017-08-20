@@ -7,9 +7,13 @@ In this section, I've documented all the explainations and steps required to com
 ### SECTIONAL CONTENTS 
 
 - [**GITHUB**](https://ameenkb.github.io/tutorial/#github)
+
 - [**3D PRINTER**](https://ameenkb.github.io/tutorial/#3d-printer)
+
 - [**CURA**](https://ameenkb.github.io/tutorial/#cura)
+
 - [**LASER CUTTER**](https://ameenkb.github.io/tutorial/#cnc-laser-cutter)
+
 - [**VINYL CUTTER**](https://ameenkb.github.io/tutorial/#vinyl-cutter)
 
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
@@ -37,6 +41,8 @@ In this section, I've documented all the explainations and steps required to com
 - What is Markdown?
 
   Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
+
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
 
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
@@ -99,6 +105,8 @@ In this section, I've documented all the explainations and steps required to com
   - **STEP 7**: Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is `master`, you should choose to create a new branch for your commit and then create a pull request.
   
   - **STEP 8**: Click `Propose file change`.
+  
+ [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
 
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
@@ -121,6 +129,8 @@ In this section, I've documented all the explainations and steps required to com
 - What is .stl file?
 
   STL (STereoLithography) is a file format native to the stereolithography CAD software created by 3D Systems. STL has several after-the-fact backronyms such as "Standard Triangle Language" and "Standard Tessellation Language". This file format is supported by many other software packages; it is widely used for rapid prototyping, 3D printing and computer-aided manufacturing. STL files describe only the surface geometry of a three-dimensional object without any representation of color, texture or other common CAD model attributes. The STL format specifies both ASCII and binary representations. Binary files are more common, since they are more compact.
+
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
   
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
@@ -165,6 +175,8 @@ In this section, I've documented all the explainations and steps required to com
   
   - **STEP 7**: Clean the surface
     Make sure you remove any plastic strings and extra glue so the next person has a clean platform.
+
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
   
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
@@ -187,6 +199,8 @@ In this section, I've documented all the explainations and steps required to com
   - **STEP 6**: To view the result of the selected profile and support settings, go to the “View mode” and select “Layers”.
   
   - **STEP 7**: In the bottom right corner, select “Save file” or “Save to USB” to save the print file.
+
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
   
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
@@ -197,6 +211,8 @@ In this section, I've documented all the explainations and steps required to com
 - What is a Laser Cutter?
 
   The laser cutter is one of the most useful tools in a modern shop. Laser cutters work by directing a very powerful laser beam, at a precise focal length, onto a material which they either cut or etch, depending on how the laser cutter has been set up. Laser cutters cut materials similarly to other computer controlled tools, only they do so using a beam of light as opposed to a blade. When laser cutters are set up to etch something on the surface of a material, they operate like a printer, literally using their laser beam to etch an image onto something.
+
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
   
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
@@ -235,7 +251,9 @@ In this section, I've documented all the explainations and steps required to com
  
    - **STEP 9**: Switch on the air pump to exhaust the gases produced during cutting
    - **STEP 10**: Press `GO` with lid closed to cutted your design file
- 
+
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 ### VINYL CUTTER
@@ -245,7 +263,9 @@ In this section, I've documented all the explainations and steps required to com
 - What is a Vinyl Cutter?
  
    The vinyl cutter uses a small knife to precisely cut the outline of a picture into a sheet or piece of vinyl. The knife moves side to side and turns, while the vinyl is moved beneath the knife. What results from the cut process is an image cut into the material. The material is then 'weeded' where the excess parts of the picture are removed. It is possible to remove the positive parts, which would give a negative sticker, or you could weed the negative parts, giving a positive sticker. Removing the letters would be like removing the positive, giving a negative image of the word, etc.
- 
+
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 #### MONOEUVRE
@@ -277,3 +297,8 @@ In this section, I've documented all the explainations and steps required to com
   - **STEP 8**: Press the Cut button on the icon bar.
   
     The cutter head should then move side to side and the vinyl should move back and forth. When the design is cut, you can use the arrow keys to move the vinyl out of the machine. There is a groove on the front of the machine. Use a razor knife in this groove to cut the piece off. Your design piece is ready.
+    
+    ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+    
+      [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
