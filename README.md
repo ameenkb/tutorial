@@ -2,7 +2,11 @@
 
 In this section, I've documented all the explainations and steps required to complete the FabLab course and assignments.
 
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 ### SECTIONAL CONTENTS 
+
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 ### GITHUB
 
@@ -28,39 +32,70 @@ In this section, I've documented all the explainations and steps required to com
 
   Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
 
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 #### MANOEUVRE
 
 - CREATING A GITHUB ID
+
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 - CREATING A GITHUB PAGE (REPOSITORY)
+  
   - **STEP 1**: In the upper-right corner of any page, click , and then click New repository.
+  
   - **STEP 2**: Type a short, memorable name for your repository. For example, "myname.github.io".
+  
   - **STEP 3**: Optionally, add a description of your repository. For example, "My first repository on GitHub."
+  
   - **STEP 4**: Choose between creating a public or private repository.
   
   `Public` repositories are a great choice for getting started. They're visible to any user on GitHub, so you can benefit from a collaborative community.
   
   `Private` repositories require a little more setup. They're only available to you, the repository owner, as well as any collaborators you choose to share with. Private repositories are only available for paid accounts. For more information, see "GitHub's billing plans."
+  
   - **STEP 5**: Select Initialize this repository with a README.
+  
   - **STEP 6**: Click Create repository.
 
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 - CHOOSING A THEME
+  
   - **STEP 1**: Go to `Settings` tab in your repository.
+  
   - **STEP 2**: Scroll down to the section "GitHub Pages".
+  
   - **STEP 3**: Click on "Choose a theme" button.
+  
   - **STEP 4**: Click on any desired theme.
+  
   - **STEP 5**: Click on "Select theme" button.
+  
   - **STEP 6**: Click on "Commit a new file" button.
+
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
   
 - COMMITTING A CHANGE IN .md FILE
-  - **STEP 1**: In your repository's list of files, click `README.md`.
-  - **STEP 2**: Above the file's content, click on Edit icon
-  - **STEP 3**: On the `Edit file` tab , type some information about yourself. The guide for leaning about markdown is availabe [here](https://guides.github.com/features/mastering-markdown/).
-  - **STEP 4**: Above the new content, click `Preview changes`.
-  - **STEP 5**: Review the changes you made to the file. You'll see the new content in green.
-  - **STEP 6**: At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
-  - **STEP 7**: Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is `master`, you should choose to create a new branch for your commit and then create a pull request.
-  - **STEP 8**: Click `Propose file change`.
   
+  - **STEP 1**: In your repository's list of files, click `README.md`.
+  
+  - **STEP 2**: Above the file's content, click on Edit icon
+  
+  - **STEP 3**: On the `Edit file` tab , type some information about yourself. The guide for leaning about markdown is availabe [here](https://guides.github.com/features/mastering-markdown/).
+  
+  - **STEP 4**: Above the new content, click `Preview changes`.
+  
+  - **STEP 5**: Review the changes you made to the file. You'll see the new content in green.
+  
+  - **STEP 6**: At the bottom of the page, type a short, meaningful commit message that describes the change you made to the file.
+  
+  - **STEP 7**: Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is `master`, you should choose to create a new branch for your commit and then create a pull request.
+  
+  - **STEP 8**: Click `Propose file change`.
+
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 ### 3D PRINTER (ULTIMAKER2+)
 
 #### BASIC INFORMATION
@@ -81,9 +116,12 @@ In this section, I've documented all the explainations and steps required to com
 
   STL (STereoLithography) is a file format native to the stereolithography CAD software created by 3D Systems. STL has several after-the-fact backronyms such as "Standard Triangle Language" and "Standard Tessellation Language". This file format is supported by many other software packages; it is widely used for rapid prototyping, 3D printing and computer-aided manufacturing. STL files describe only the surface geometry of a three-dimensional object without any representation of color, texture or other common CAD model attributes. The STL format specifies both ASCII and binary representations. Binary files are more common, since they are more compact.
   
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 #### MANOEUVRE
 
 - PRINTING USING ULTIMAKER 2+
+  
   - **STEP 1**: Download Cura
   
   You will need to download a program called Cura in order to convert your STL file into a bot readable file. This is available here:
@@ -92,8 +130,10 @@ In this section, I've documented all the explainations and steps required to com
   
   Once you open the program it will ask you which bot you are using in order to give you a digital visualization of your particular build platform.
   
+  
   - **STEP 2**: Import your .stl
   Click LOAD in the top left hand corner and choose the STL you would like to print.
+  
   
   - **STEP 3**: Customize the settings
   In order for your model to print correctly you will need to customize the settings.
@@ -120,19 +160,30 @@ In this section, I've documented all the explainations and steps required to com
   - **STEP 7**: Clean the surface
   Make sure you remove any plastic strings and extra glue so the next person has a clean platform.
   
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 ### CURA
 
 #### MANOEUVRE
 
 - Slicing the model
+  
   - **STEP 1**: Load the model into Cura by clicking the “Open File” folder icon (top left corner).
+  
   - **STEP 2**: Use the Adjustment Tools to position, scale and rotate the object if desired.
+  
   - **STEP 3**: In the Sidebar, select the nozzle size and material you want to use. Make sure it matches the setup on the printer.
+  
   - **STEP 4**: Select a profile quality (Draft Print, Fast Print, Normal Quality or High Quality) on the Sidebar.
+  
   - **STEP 5**: Select “Helper Parts” on the Sidebar. Set the desired strength and enable or disable support and build plate adhesion.
+  
   - **STEP 6**: To view the result of the selected profile and support settings, go to the “View mode” and select “Layers”.
+  
   - **STEP 7**: In the bottom right corner, select “Save file” or “Save to USB” to save the print file.
   
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 ### CNC LASER CUTTER
 
 #### BASIC IINFORMATION
@@ -140,12 +191,18 @@ In this section, I've documented all the explainations and steps required to com
 - What is a Laser Cutter?
   The laser cutter is one of the most useful tools in a modern shop. Laser cutters work by directing a very powerful laser beam, at a precise focal length, onto a material which they either cut or etch, depending on how the laser cutter has been set up. Laser cutters cut materials similarly to other computer controlled tools, only they do so using a beam of light as opposed to a blade. When laser cutters are set up to etch something on the surface of a material, they operate like a printer, literally using their laser beam to etch an image onto something.
   
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 #### MANOEUVRE
 
 - Using the Laser Cutter
+  
   - **STEP 1**: Load the design file using any designing softwares.
+  
   - **STEP 2**: Select the `Print` option from the `File` dropdown menu.
+  
   - **STEP 3**: Select the laser cutter from `Select printer`.
+  
   - **STEP 4**: Chose the required power and speed
   
   The Power setting determines exactly that. You can control how much power will be applied to the laser while printing. The more power- the more heat, and the more heat- the greater the chance of fire.
@@ -172,6 +229,8 @@ In this section, I've documented all the explainations and steps required to com
   - **STEP 9**: Switch on the air pump to exhaust the gases produced during cutting
   - **STEP 10**: Press `GO` with lid closed to cutted your design file
  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 ### VINYL CUTTER
  
 #### BASIC INFORMATION
@@ -180,31 +239,34 @@ In this section, I've documented all the explainations and steps required to com
  
  The vinyl cutter uses a small knife to precisely cut the outline of a picture into a sheet or piece of vinyl. The knife moves side to side and turns, while the vinyl is moved beneath the knife. What results from the cut process is an image cut into the material. The material is then 'weeded' where the excess parts of the picture are removed. It is possible to remove the positive parts, which would give a negative sticker, or you could weed the negative parts, giving a positive sticker. Removing the letters would be like removing the positive, giving a negative image of the word, etc.
  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 #### MONOEUVRE
  
  - Using the Vinyl Cutter
  
-   - Make the image to cut
+   - **STEP 1**: Make the image to cut
+   
    Find or make an image that you want to make into a sticker. You can create an image with Open Office Draw, or Gimp. Other programs can work fine.Your image should be black and white with no gray for best results.
    
    Save the image as a JPEG The software running the cutter likes to have a jpeg, Scaleable Vector Graphic (.SVG) can work fine as well.
    
    You could also open with a preffered browser and copy and paste into the cutting program, which is in this case, CutStudio.
    
-  - Open Cut Studio, the software bundled with the cutter.
+  - **STEP 2**: Open Cut Studio, the software bundled with the cutter.
 
-  - Import your image. It should show up as a grayed out picture.
+  - **STEP 3**: Import your image. It should show up as a grayed out picture.
 
-  - Right click on the image, then choose Trace Image Outline. A dialog box will come up, you can adjust the accuracy of the cuts by adjusting the values. You will see an outline of your image laid on top of the picture.
+  - **STEP 4**: Right click on the image, then choose Trace Image Outline. A dialog box will come up, you can adjust the accuracy of the cuts by adjusting the values. You will see an outline of your image laid on top of the picture.
 
-  - Click the Move button on the upper right to put the outline in the bottom right of the design area. Next, delete the picture.
+  - **STEP 5**: Click the Move button on the upper right to put the outline in the bottom right of the design area. Next, delete the picture.
 
-  - Right click on the picture and choose 'Properties'. There are three tabs. For size, choose the size that will fit your sample piece of vinyl. The cutter measures in millimeters. If you need to rotate the image to fit the sticker size, you can do that in the 'Rotation' field. If you haven't already,  to put a box, oval or circle around your image to make it easier to separate later.
+  - **STEP 6**: Right click on the picture and choose 'Properties'. There are three tabs. For size, choose the size that will fit your sample piece of vinyl. The cutter measures in millimeters. If you need to rotate the image to fit the sticker size, you can do that in the 'Rotation' field. If you haven't already,  to put a box, oval or circle around your image to make it easier to separate later.
 
-  - Set the hardware
+  - **STEP 7**: Set the hardware
   
   Check the display. It shoulde say Sheer unloaded intil you engage the pressure roller. Then you will need to use the down arrow to tell the machine you have loaded a piece or a roll. If you choose piece, the cutter head will move sideways, measure the space between the rollers, then it will move the piece out, the back in, then to its original position. This process used the 'eyes' to measure the height of the piece. you then should be able to see the readout on the display of the pieces measurements. 
   
-  - Press the Cut button on the icon bar.
+  - **STEP 8**: Press the Cut button on the icon bar.
   
   The cutter head should then move side to side and the vinyl should move back and forth. When the design is cut, you can use the arrow keys to move the vinyl out of the machine. There is a groove on the front of the machine. Use a razor knife in this groove to cut the piece off. Your design piece is ready.
