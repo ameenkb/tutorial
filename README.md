@@ -166,10 +166,45 @@ In this section, I've documented all the explainations and steps required to com
 
   Once everything is placed, you may need to adjust the bed. If you look on the front control panel of the Laser Cutter, there should be a focus button. If you push that, and then the down arrow, you should see the bed lower. Keep lowering the bed until you have enough space that the laser will not come into contact with your materials. Extra space here is fine, we're going to let the machine focus itself later.
 
-- **STEP 8**: [Optional] Test run the design file
+ - **STEP 8**: [Optional] Test run the design file
  Click `GO` with the lid of the laser cutter open. Laser Cutter won't print with the lid open, so it's a good way to do a test run on your piece.
  
- - **STEP 9**: Switch on the air pump to exhaust the gases produced during cutting
- - **STEP 10**: Press `GO` with lid closed to cutted your design file
+  - **STEP 9**: Switch on the air pump to exhaust the gases produced during cutting
+  - **STEP 10**: Press `GO` with lid closed to cutted your design file
  
+### VINYL CUTTER
  
+#### BASIC INFORMATION
+ 
+- What is a Vinyl Cutter?
+ 
+ The vinyl cutter uses a small knife to precisely cut the outline of a picture into a sheet or piece of vinyl. The knife moves side to side and turns, while the vinyl is moved beneath the knife. What results from the cut process is an image cut into the material. The material is then 'weeded' where the excess parts of the picture are removed. It is possible to remove the positive parts, which would give a negative sticker, or you could weed the negative parts, giving a positive sticker. Removing the letters would be like removing the positive, giving a negative image of the word, etc.
+ 
+#### MONOEUVRE
+ 
+ - Using the Vinyl Cutter
+ 
+   - Make the image to cut
+   Find or make an image that you want to make into a sticker. You can create an image with Open Office Draw, or Gimp. Other programs can work fine.Your image should be black and white with no gray for best results.
+   
+   Save the image as a JPEG The software running the cutter likes to have a jpeg, Scaleable Vector Graphic (.SVG) can work fine as well.
+   
+   You could also open with a preffered browser and copy and paste into the cutting program, which is in this case, CutStudio.
+   
+  - Open Cut Studio, the software bundled with the cutter.
+
+  - Import your image. It should show up as a grayed out picture.
+
+  - Right click on the image, then choose Trace Image Outline. A dialog box will come up, you can adjust the accuracy of the cuts by adjusting the values. You will see an outline of your image laid on top of the picture.
+
+  - Click the Move button on the upper right to put the outline in the bottom right of the design area. Next, delete the picture.
+
+  - Right click on the picture and choose 'Properties'. There are three tabs. For size, choose the size that will fit your sample piece of vinyl. The cutter measures in millimeters. If you need to rotate the image to fit the sticker size, you can do that in the 'Rotation' field. If you haven't already,  to put a box, oval or circle around your image to make it easier to separate later.
+
+  - Set the hardware
+  
+  Check the display. It shoulde say Sheer unloaded intil you engage the pressure roller. Then you will need to use the down arrow to tell the machine you have loaded a piece or a roll. If you choose piece, the cutter head will move sideways, measure the space between the rollers, then it will move the piece out, the back in, then to its original position. This process used the 'eyes' to measure the height of the piece. you then should be able to see the readout on the display of the pieces measurements. 
+  
+  - Press the Cut button on the icon bar.
+  
+  The cutter head should then move side to side and the vinyl should move back and forth. When the design is cut, you can use the arrow keys to move the vinyl out of the machine. There is a groove on the front of the machine. Use a razor knife in this groove to cut the piece off. Your design piece is ready.
