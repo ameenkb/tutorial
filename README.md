@@ -50,6 +50,16 @@ In this section, I've documented all the explainations and steps required to com
 
 - CREATING A GITHUB ID
 
+  - **STEP 1**: Go to https://github.com
+  
+  - **STEP 2**: Click on `Sign Up`
+  
+  - **STEP 3**: Choose an available usename
+  
+  - **STEP 4**: Enter your email address and a new password
+  
+  - **STEP 5**: Click on `Create An Account`
+
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 - CREATING A GITHUB PAGE (REPOSITORY)
