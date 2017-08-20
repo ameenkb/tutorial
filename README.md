@@ -6,6 +6,12 @@ In this section, I've documented all the explainations and steps required to com
 
 ### SECTIONAL CONTENTS 
 
+- [**GITHUB**](https://ameenkb.github.io/tutorial/#github)
+- [**3D PRINTER**](https://ameenkb.github.io/tutorial/#3d-printer)
+- [**CURA**](https://ameenkb.github.io/tutorial/#cura)
+- [**LASER CUTTER**](https://ameenkb.github.io/tutorial/#cnc-laser-cutter)
+- [**VINYL CUTTER**](https://ameenkb.github.io/tutorial/#vinyl-cutter)
+
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 ### GITHUB
@@ -96,7 +102,7 @@ In this section, I've documented all the explainations and steps required to com
 
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
-### 3D PRINTER (ULTIMAKER2+)
+### 3D PRINTER
 
 #### BASIC INFORMATION
 
