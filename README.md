@@ -28,7 +28,7 @@ In this section, I've documented all the explainations and steps required to com
 
   Markdown is a way to style text on the web. You control the display of the document; formatting words as bold or italic, adding images, and creating lists are just a few of the things we can do with Markdown. Mostly, Markdown is just regular text with a few non-alphabetic characters thrown in, like `#` or `*`.
 
-### MANOEUVRE
+#### MANOEUVRE
 
 - CREATING A GITHUB ID
 - CREATING A GITHUB PAGE (REPOSITORY)
@@ -51,7 +51,7 @@ In this section, I've documented all the explainations and steps required to com
   - **STEP 5**: Click on "Select theme" button.
   - **STEP 6**: Click on "Commit a new file" button.
   
-- COMMITING A CHANGE IN .md FILE
+- COMMITTING A CHANGE IN .md FILE
   - **STEP 1**: In your repository's list of files, click `README.md`.
   - **STEP 2**: Above the file's content, click on Edit icon
   - **STEP 3**: On the `Edit file` tab , type some information about yourself. The guide for leaning about markdown is availabe [here](https://guides.github.com/features/mastering-markdown/).
@@ -61,4 +61,115 @@ In this section, I've documented all the explainations and steps required to com
   - **STEP 7**: Below the commit message fields, decide whether to add your commit to the current branch or to a new branch. If your current branch is `master`, you should choose to create a new branch for your commit and then create a pull request.
   - **STEP 8**: Click `Propose file change`.
   
+### 3D PRINTER (ULTIMAKER2+)
+
+#### BASIC INFORMATION
+
+- What is Ultimaker and Ultimaker 2+?
   
+  Ultimaker is a 3D printer manufacturer. Their product line includes the Ultimaker 3 family, Ultimaker 2 family and the Ultimaker Original. The company started out as an open-source printer company. Contrary to the RepRap project founded By Adrian Bowyer, Ultimaker is not focused on an end-goal of self-replication. Their product is designed to make high quality prints. Ultimaker sells the Ultimaker Original family as a DIY kit and the Ultimaker 2 family pre-assembled.
+  
+  Ultimaker’s 3D printers currently print using acrylonitrile butadiene styrene (ABS) and polylactic acid (PLA). Ultimaker’s printers also can print with other thermoplastics such as Nylon and Acrylic (PMMA), but this may be a little difficult.
+  
+  Ultimaker 2+ is the 3D Printer product of Ultimaker company used in the FabLab of MESCE, Kuttipuram.
+  
+- What is Cura?
+
+  Cura is a 3D printer slicing application. It was created by David Braam; he was later employed by Ultimaker to maintain the software. Cura has been released under the open source Affero General Public License version 3. Development is hosted on GitHub. Cura is the preferred slicer software for Ultimaker 3D printers, but can be used with other printers as well.
+  
+- What is .stl file?
+
+  STL (STereoLithography) is a file format native to the stereolithography CAD software created by 3D Systems. STL has several after-the-fact backronyms such as "Standard Triangle Language" and "Standard Tessellation Language". This file format is supported by many other software packages; it is widely used for rapid prototyping, 3D printing and computer-aided manufacturing. STL files describe only the surface geometry of a three-dimensional object without any representation of color, texture or other common CAD model attributes. The STL format specifies both ASCII and binary representations. Binary files are more common, since they are more compact.
+  
+#### MANOEUVRE
+
+- PRINTING USING ULTIMAKER 2+
+  - **STEP 1**: Download Cura
+  
+  You will need to download a program called Cura in order to convert your STL file into a bot readable file. This is available here:
+  
+  http://software.ultimaker.com/
+  
+  Once you open the program it will ask you which bot you are using in order to give you a digital visualization of your particular build platform.
+  
+  - **STEP 2**: Import your .stl
+  Click LOAD in the top left hand corner and choose the STL you would like to print.
+  
+  - **STEP 3**: Customize the settings
+  In order for your model to print correctly you will need to customize the settings.
+  
+  RESOLUTION: Do you want it to be faster or prettier or a happy medium? This depends on what you will be using your printed object for.
+  
+  SUPPPORT STRUCTURESs: Structure apart from the design, made to support the printed structure from unstable printing. This is the important one.
+  
+  RAFTS: Like a life raft for your print, this layer of plastic is printed first and sits under your print and keeps it from peeling off the build plate during printing. If can be removed when the print is complete. The raft is useful if your print is long and flat because some warping may occur during printing due to temperature fluctuations.
+
+  SUPPORTS: Supports are what they sound like. They are there to keep your print from becoming a mushy pile. Remember there is no anti gravity device in your bot yet. (disregard if this is the year 3014 and no longer the case) Everywhere printing will occur where there is nothing underneath to hold it up will need to be supported. By checking the support box the program will generate a removable scaffolding for building your print.
+  
+  ADVANCED SETTINGS: If you are printing something complicated you should turn down the print speed. Using the EXPERT dropbox choose FULL SETTINGS and the dialog box on the left hand side will change. Now you have full control over all of the settings. Find the PRINT SPEED MM/S option and adjust the speed. I believe the default is 50 mm/s for more complicated objects I suggest 25mm/s but you have to experiment for what works for your print.
+  
+  - **STEP 4**: Export your file
+  Export the file to the SD card by clicking the SD card in the top left corner. It will give you an estimation of the print time and material usage.
+  
+  - **STEP 5**: Print your model
+  Print your model by thlecting the name of your design file by rotating the knob and selecting the item. Insert the SD card. Use the toggle to select print and push in on the toggle button! Use the toggle to select your file. The printer will spring to life and align itself only to pause for preheat for a few minutes. You can monitor the heating progress in the bar on the screen.
+  
+  - **STEP 6**: Remove the printed piece
+  Gently pull your piece off the platform. Make sure the platform has cooled first otherwise you may get some warping on your print while pulling it off the platform. If it is difficult to pull off remove the glass platform from the printer by turning the two front metal tabs toward you.
+  
+  - **STEP 7**: Clean the surface
+  Make sure you remove any plastic strings and extra glue so the next person has a clean platform.
+  
+### CURA
+
+#### MANOEUVRE
+
+- Slicing the model
+  - **STEP 1**: Load the model into Cura by clicking the “Open File” folder icon (top left corner).
+  - **STEP 2**: Use the Adjustment Tools to position, scale and rotate the object if desired.
+  - **STEP 3**: In the Sidebar, select the nozzle size and material you want to use. Make sure it matches the setup on the printer.
+  - **STEP 4**: Select a profile quality (Draft Print, Fast Print, Normal Quality or High Quality) on the Sidebar.
+  - **STEP 5**: Select “Helper Parts” on the Sidebar. Set the desired strength and enable or disable support and build plate adhesion.
+  - **STEP 6**: To view the result of the selected profile and support settings, go to the “View mode” and select “Layers”.
+  - **STEP 7**: In the bottom right corner, select “Save file” or “Save to USB” to save the print file.
+  
+### CNC LASER CUTTER
+
+#### BASIC IINFORMATION
+
+- What is a Laser Cutter?
+  The laser cutter is one of the most useful tools in a modern shop. Laser cutters work by directing a very powerful laser beam, at a precise focal length, onto a material which they either cut or etch, depending on how the laser cutter has been set up. Laser cutters cut materials similarly to other computer controlled tools, only they do so using a beam of light as opposed to a blade. When laser cutters are set up to etch something on the surface of a material, they operate like a printer, literally using their laser beam to etch an image onto something.
+  
+#### MANOEUVRE
+
+- Using the Laser Cutter
+  - **STEP 1**: Load the design file using any designing softwares.
+  - **STEP 2**: Select the `Print` option from the `File` dropdown menu.
+  - **STEP 3**: Select the laser cutter from `Select printer`.
+  - **STEP 4**: Chose the required power and speed
+  
+  The Power setting determines exactly that. You can control how much power will be applied to the laser while printing. The more power- the more heat, and the more heat- the greater the chance of fire.
+  
+  The speed you choose, determines how fast the laser will travel while cutting. The slower the speeds, the longer the laser sits in each spot, which yields more heat...and I think you see where this is going. It also means that the slower the speed, the deeper the cut or engraving will be.
+  
+  - **STEP 5**: Choose between Vector and Raster options
+  
+  Raster tends to be used for engraving things, while vector is much more adept at cutting things out. Raster engraving is quite akin to a normal printer. When you hit print in whatever program you decide to print from, the laser cutter will start at the top of the piece you're working on, and proceed down to the bottom, while the laser moves from left to right on whatever you're engraving. The laser turns on and off in rapid succession at whatever points a normal printer would and wouldn't shoot out ink.
+ 
+  Vector however goes in a straight line, that will etch much like a knife will cut. To accomplish this, you use slower speeds at equivalent or higher powers then you would in Raster, and turn the laser on and off a bunch of times every second, to the point that your eyes can't tell it's even doing it.. It will start at a point on your image, leave the laser on, and continue on the line, tracing the entire image before turning the laser off. This is why it tends to be used for cutting instead of etching.
+  
+  - **STEP 6**: In the Print Preferences, click the "Auto Focus" button. This will ensure the laser is the proper distance away from whatever you're cutting to get the most accurate cuts.
+
+  - **STEP 7**: Place the material and set X,Y Coordinates
+  
+  Once on, open the case, place your material where ever you plan to cut. This is where the rulers from the image come in handy, hopefully the laser cutter you're using has built in rulers to help you situate things. (If you're placing something in the upper left corner, and the bed is raised to high, do the following step first).
+
+  Once everything is placed, you may need to adjust the bed. If you look on the front control panel of the Laser Cutter, there should be a focus button. If you push that, and then the down arrow, you should see the bed lower. Keep lowering the bed until you have enough space that the laser will not come into contact with your materials. Extra space here is fine, we're going to let the machine focus itself later.
+
+- **STEP 8**: [Optional] Test run the design file
+ Click `GO` with the lid of the laser cutter open. Laser Cutter won't print with the lid open, so it's a good way to do a test run on your piece.
+ 
+ - **STEP 9**: Switch on the air pump to exhaust the gases produced during cutting
+ - **STEP 10**: Press `GO` with lid closed to cutted your design file
+ 
+ 
