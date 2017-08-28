@@ -16,6 +16,12 @@ In this section, I've documented all the explainations and steps required to com
 
 - [**VINYL CUTTER**](https://ameenkb.github.io/tutorial/#vinyl-cutter)
 
+- [**AUTODESK EAGLE**](https://ameenkb.github.io/tutorial/#autodesk-eagle)
+
+- [**PCB MILLING**](https://ameenkb.github.io/tutorial/#pcb-milling)
+
+- [**PCB SOLDERING**](https://ameenkb.github.io/tutorial/#pcb-soldering)
+
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 ### GITHUB
@@ -309,6 +315,130 @@ In this section, I've documented all the explainations and steps required to com
     The cutter head should then move side to side and the vinyl should move back and forth. When the design is cut, you can use the arrow keys to move the vinyl out of the machine. There is a groove on the front of the machine. Use a razor knife in this groove to cut the piece off. Your design piece is ready.
     
     ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
-
     
+### AUTODESK EAGLE
+
+#### BASIC INFORMATION
+
+- What is Autodesk Eagle?
+
+EAGLE is a scriptable electronic design automation application with schematic capture, printed circuit board layout, auto-router and computer-aided manufacturing features. EAGLE stands for Easily Applicable Graphical Layout Editor (German: Einfach Anzuwendender Grafischer Layout-Editor) and is developed by CadSoft Computer GmbH. Cadsoft Computer GmbH was acquired by Autodesk Inc. in 2016.
+Popular DIY electronics site SparkFun uses EAGLE, and releases the EAGLE files for boards designed in-house. Other notable users include Adafruit, Arduino and Dangerous Prototypes.
+
+  EAGLE contains a schematic editor, for designing circuit diagrams. Parts can be placed on many sheets and connected together through ports.
+The PCB layout editor allows back annotation to the schematic and auto-routing to automatically connect traces based on the connections defined in the schematic.
+EAGLE saves Gerber and PostScript layout files and Excellon and Sieb & Meyer drill files. These standard files are accepted by many PCB fabrication companies.
+
+[![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+#### MANOEUVRE
+
+- Designing a circuit
+
+  - **STEP 1**: Create a project
+  
+    In the control panel, under the “Projects” tree, right click on the directory where you want the project to live (by default EAGLE creates an “eagle” directory in your home folder), and select “New Project”.
+  
+  - **STEP 2**: Create a schematic
+  
+    The project folder will house both our schematic and board design files (and eventually our gerber files too). To begin the design process, we need to lay out a schematic.
+
+    To add a schematic to a project folder, right-click the folder, hover over “New” and select “Schematic”.
+
+  - **STEP 3**: Add parts to schematic
+
+    The ADD tool – (on the left toolbar, or under the Edit menu) – is what you’ll use to place every single component on the schematic.     The ADD tool opens up a library navigator, where you can expand specific libraries and look at the parts it holds. With a part selected on the left side, the view on the right half should update to show both the schematic symbol of the part and its package.
+  
+  - **STEP 4**: Wire up the schematic
+  
+    To use the NET tool, hover over the very end of a pin (as close as possible, zoom in if you have to), and left-click once to start a wire. Now a green line should be following your mouse cursor around. To terminate the net, left-click on either another pin or a net.
+  
+  - **STEP 5**: Naming and Labelling
+  
+    Next, we’ll use the NAME tool –  (left toolbar, or under the Edit menu) – to name each of the six nets. With the NAME tool selected, clicking on a net should open a new dialog. Start by naming the net connected to the top, GND pin. Delete the auto-generated name (e.g. N$14), and replace it with “GND” (sans the quotation marks). This should result in a warning dialog, asking you if you want to connect this net to all of the other nets named “GND” (that would be every net connected to a GND symbol). Thanks for looking out for us EAGLE, but in this case Yes we do want to connect GND to GND.
+
+    After naming a net, you should use the LABEL tool –  – to add a text label. With the LABEL tool selected, left-click on the net you just named. This should spawn a piece of text that says “GND”, left-click again to place the label down right on top of your net.
+
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+- Creating Board from Schematic
+
+  - **STEP 1**: Switch to board view
+  
+    To switch from the schematic editor to the related board, simply click the Generate/Switch to Board command – (on the top toolbar, or under the File menu) – which should prompt a new, board editor window to open. All of the parts you added from the schematic should be there, stacked on top of eachother, ready to be placed and routed.
+    
+  - **STEP 2**: Selecting from overlapping objects
+  
+    Normally, you use the mouse’s left-click to select an object (whether it’s a trace, via, part, etc.), but when there are two parts overlapping exactly where you’re clicking, EAGLE doesn’t know which one you want to pick up. In cases like that, EAGLE will pick one of the two overlapping objects, and ask if that’s the one you want. If it is, you have to left-click again to confirm. If you were trying to grab one of the other overlapping objects, right-click to cycle to the next part. EAGLE’s status box, in the very bottom-left of the window, provides some helpful information when you’re trying to select a part.
+    
+  - **STEP 3**: Autorouting
+  
+    You can try loading up EAGLE’s Autorouter to see if it can finish the job. Open up the autorouter, don’t worry about these other tabs for now, just click OK.
+    
+    The autorouter won’t always be able to finish the job, so it’s still important to understand how to manually route pads (plus manual routes look much better). After running the autorouter, check the bottom-left status box to see how it did. If it says anything other than “OptimizeN: 100% finished”, you’ve still got some work to do. If your autorouter couldn’t finish the job, try turning Routing Grid down from 50mil 10mil.
+
+    There are tons of optimizations and settings to be made in the autorouter. If you want to dig deeper into the subject, consider checking out EAGLE’s manual where an entire chapter is devoted to it.
+    
+  - **STEP 4**: Saving the file
+  
+    While saving the file, we have to select different layers and save them separately for PCB Millng. First from the layers button, select the schematics layer and save it with the .png extension. then select the board layer, by selecting the 'Dimensions' layer and save it using the .png extension
+
+[![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+### PCB MILLING
+
+#### BASIC INFORMATION
+
+- What is fabmodules.org
+
+  The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.
+
+  It includes Tools to design 2D and 3D objects, Functions to generate 2D and 3D toolpaths and GUIs workflow from design files to machine commands. It's also the software platform for MTM machines.
+  
+#### MANOEUVRE
+
+- Making gcodes for cnc machine
+    
+  - Go to `fabmodules.org`
+  
+  - Click on `image (.png)` and select your schematic file
+  
+  - Click on `Output format` and select `ShopBot (.sbp)`
+  
+  - Click on `Process` and select `Foam rough cut`
+  
+  - Select `mm` in `File Units` and input the required data values
+  
+  - Click on `Calculate` and save the file
+  
+- Milling using ShopBot
+
+  - Select the 'Program Run' tab in Mach3
+  
+  - Plug your USB Drive into the Mach3 PC and use 'File->Load GCode' within Mach3 to load your file.
+  
+  - Use the arrow keys to jog the spindle to what will be the lower right corner of your etching. Leave some extra room to avoid disasters.
+  
+  - Click 'Zero X', 'Zero Y' and 'Zero Z' on the Mach3 Screen
+  
+  - Click 'Cycle Start' on the Mach3 Screen
+  
+  - When prompted, jog the spindle down to within 5mm of the board and click 'Cycle Start' again.
+  
+  - The CNC will begin probing the work piece. If at any point Guido seems to be plunging the bit into the copper, hit the red E-Stop button and check your connections.
+  
+  - If you need to fix a connection and restart the process, be sure to use the 'Rewind' button in Mach3 before clicking 'Cycle Start' again.
+    
+### PCB SOLDERING
+
+#### BASIC INFORMATION
+
+
+
+#### MOVOEUVRE
+
 [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
