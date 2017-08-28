@@ -464,7 +464,85 @@ Popular DIY electronics site SparkFun uses EAGLE, and releases the EAGLE files f
   - **STEP 4**: Soldering on PBC hole
   
     Put the tip of the iron on the pad so that it heats both the lead of the part and the pad of the circuit board. Heat them for a second or so before you apply solder. Remove the iron and the solder wire and inspect your solder joint to see if it looks okay
-    
+     
+[![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+### MOULDING AND CASTING
+
+#### BASIC INFORMATION
+
+- What is moulding?
+
+  Molding or moulding is the process of manufacturing by shaping liquid or pliable raw material using a rigid frame called a mold or matrix. This itself may have been made using a pattern or model of the final object.
+  A mold or mould is a hollowed-out block that is filled with a liquid or pliable material such as plastic, glass, metal, or ceramic raw material. The liquid hardens or sets inside the mold, adopting its shape. A mold is the counterpart to a cast. The very common bi-valve molding process uses two molds, one for each half of the object. Piece-molding uses a number of different molds, each creating a section of a complicated object. This is generally only used for larger and more valuable objects.
+  The manufacturer who makes molds is called the moldmaker. A release agent is typically used to make removal of the hardened/set substance from the mold easier. Typical uses for molded plastics include molded furniture, molded household goods, molded cases, and structural materials.
+
+- What is Casting?
+
+  Casting is a manufacturing process in which a liquid material is usually poured into a mold, which contains a hollow cavity of the desired shape, and then allowed to solidify. The solidified part is also known as a casting, which is ejected or broken out of the mold to complete the process. Casting materials are usually metals or various cold setting materials that cure after mixing two or more components together; examples are epoxy, concrete, plaster and clay. Casting is most often used for making complex shapes that would be otherwise difficult or uneconomical to make by other methods.
+  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+#### MONOEUVRE
+
+- Creating mould and casting a model
+
+  - **STEP 1**: Create mould of the desired model with two blocks and vent holes
+  
+  - **STEP 2**: Mix Part A and Part B of Silicone Mold Rubber in 1:1 ratio for desired amount
+  
+  - **STEP 3**: Add 2-3 drops of desired color to the mixed rubber gel
+  
+  - **STEP 4**: Fill the block of mould with the rubber gel without covering the vent holes
+  
+  - **STEP 5**: Allow the model two set for atleast 4 hours
+  
+  - **STEP 6**: Carefully open the mould blocks without cracking the model inside
+  
+  - **STEP 7**: Using tweezers or any other holding equipments, remove the casted model from the mould blocks
+  
+  - **STEP 8**: As a finishing work, polish the surface of the model using available tools
+  
+[![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+### SCREEN PRINTING
+
+#### BASIC INFORMATION
+
+- What is screen printing?
+
+  Screen printing is a printing technique whereby a mesh is used to transfer ink onto a substrate, except in areas made impermeable to the ink by a blocking stencil. A blade or squeegee is moved across the screen to fill the open mesh apertures with ink, and a reverse stroke then causes the screen to touch the substrate momentarily along a line of contact. This causes the ink to wet the substrate and be pulled out of the mesh apertures as the screen springs back after the blade has passed.
+Screen printing is also a stencil method of print making in which a design is imposed on a screen of polyester or other fine mesh, with blank areas coated with an impermeable substance. Ink is forced into the mesh openings by the fill blade or squeegee and by wetting the substrate, transferred onto the printing surface during the squeegee stroke. As the screen rebounds away from the substrate the ink remains on the substrate. It is also known as silk-screen, screen, serigraphy, and serigraph printing. One color is printed at a time, so several screens can be used to produce a multicoloured image or design.
+There are various terms used for what is essentially the same technique. Traditionally the process was called screen printing or silkscreen printing because silk was used in the process prior to the invention of polyester mesh. Currently, synthetic threads are commonly used in the screen printing process. The most popular mesh in general use is made of polyester. There are special-use mesh materials of nylon and stainless steel available to the screen printer. There are also different types of mesh size which will determine the outcome and look of the finished design on the material.
+
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
+#### MOVOEUVRE
+
+- Screen Printing on a T-Shirt
+
+  - **STEP 1**: Create the stencil of the print using vinyl cutter
+    
+    The required print model is to be cut uing the vinyl cutter in mirrored format. after cutting, the ecxess parts where the print is to be aplied is to be removed using tweezers. This inturn can be used for pasting as vinyl cutted stickers
+    
+  - **STEP 2**: Stick the stencil on the screen printing net carefully with no wrinkles
+  
+  - **STEP 3**: Prepare the paint for printing as instructed on the paint bottle
+  
+  - **STEP 4**: Keep the t shirt to be screen printed on the other side of the screen where the sticker is kept
+  
+  - **STEP 5**: Apply the prepared paint on to the screen printing net in required amount
+  
+  - **STEP 6**: Wipe the paint accroos the surface of the screen using the wiper
+  
+  - **STEP 7**: Gently keep wiping the paint onto the t shirt to be painted desirably
+  
+  - **STEP 8**: Wait until the paint is dried
+  
+  - **STEP 9**: Gently remove the screen from the t shirt to expose the printed region
 
 [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
