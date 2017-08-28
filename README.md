@@ -22,6 +22,10 @@ In this section, I've documented all the explainations and steps required to com
 
 - [**PCB SOLDERING**](https://ameenkb.github.io/tutorial/#pcb-soldering)
 
+- [**MOULDING AND CASTING**](https://ameenkb.github.io/tutorial/#moulding-and-casting)
+
+- [**SCREEN PRINTING**](https://ameenkb.github.io/tutorial/#screen-printing)
+
 ![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 ### GITHUB
