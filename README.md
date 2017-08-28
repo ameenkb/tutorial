@@ -322,12 +322,12 @@ In this section, I've documented all the explainations and steps required to com
 
 - What is Autodesk Eagle?
 
-EAGLE is a scriptable electronic design automation application with schematic capture, printed circuit board layout, auto-router and computer-aided manufacturing features. EAGLE stands for Easily Applicable Graphical Layout Editor (German: Einfach Anzuwendender Grafischer Layout-Editor) and is developed by CadSoft Computer GmbH. Cadsoft Computer GmbH was acquired by Autodesk Inc. in 2016.
+  EAGLE is a scriptable electronic design automation application with schematic capture, printed circuit board layout, auto-router and computer-aided manufacturing features. EAGLE stands for Easily Applicable Graphical Layout Editor (German: Einfach Anzuwendender Grafischer Layout-Editor) and is developed by CadSoft Computer GmbH. Cadsoft Computer GmbH was acquired by Autodesk Inc. in 2016.
 Popular DIY electronics site SparkFun uses EAGLE, and releases the EAGLE files for boards designed in-house. Other notable users include Adafruit, Arduino and Dangerous Prototypes.
 
   EAGLE contains a schematic editor, for designing circuit diagrams. Parts can be placed on many sheets and connected together through ports.
-The PCB layout editor allows back annotation to the schematic and auto-routing to automatically connect traces based on the connections defined in the schematic.
-EAGLE saves Gerber and PostScript layout files and Excellon and Sieb & Meyer drill files. These standard files are accepted by many PCB fabrication companies.
+  The PCB layout editor allows back annotation to the schematic and auto-routing to automatically connect traces based on the connections defined in the schematic.
+  EAGLE saves Gerber and PostScript layout files and Excellon and Sieb & Meyer drill files. These standard files are accepted by many PCB fabrication companies.
 
 [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
   
@@ -393,52 +393,78 @@ EAGLE saves Gerber and PostScript layout files and Excellon and Sieb & Meyer dri
 
 #### BASIC INFORMATION
 
-- What is fabmodules.org
+- What is fabmodules.org?
 
   The fab modules provide a set of software tools for personal fabrication, intended for use with machines common to fab labs.
 
   It includes Tools to design 2D and 3D objects, Functions to generate 2D and 3D toolpaths and GUIs workflow from design files to machine commands. It's also the software platform for MTM machines.
   
+[![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+  
 #### MANOEUVRE
 
 - Making gcodes for cnc machine
     
-  - Go to `fabmodules.org`
+  - **STEP 1**: Go to `fabmodules.org`
   
-  - Click on `image (.png)` and select your schematic file
+  - **STEP 2**: Click on `image (.png)` and select your schematic file
   
-  - Click on `Output format` and select `ShopBot (.sbp)`
+  - **STEP 3**: Click on `Output format` and select `ShopBot (.sbp)`
   
-  - Click on `Process` and select `Foam rough cut`
+  - **STEP 4**: Click on `Process` and select `Foam rough cut`
   
-  - Select `mm` in `File Units` and input the required data values
+  - **STEP 5**: Select `mm` in `File Units` and input the required data values
   
-  - Click on `Calculate` and save the file
+  - **STEP 6**: Click on `Calculate` and save the file
   
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
+
 - Milling using ShopBot
 
-  - Select the 'Program Run' tab in Mach3
+  - **STEP 1**: Select the 'Program Run' tab in Mach3
   
-  - Plug your USB Drive into the Mach3 PC and use 'File->Load GCode' within Mach3 to load your file.
+  - **STEP 2**: Plug your USB Drive into the Mach3 PC and use 'File->Load GCode' within Mach3 to load your file.
   
-  - Use the arrow keys to jog the spindle to what will be the lower right corner of your etching. Leave some extra room to avoid disasters.
+  - **STEP 3**: Use the arrow keys to jog the spindle to what will be the lower right corner of your etching. Leave some extra room to avoid disasters.
   
-  - Click 'Zero X', 'Zero Y' and 'Zero Z' on the Mach3 Screen
+  - **STEP 4**: Click 'Zero X', 'Zero Y' and 'Zero Z' on the Mach3 Screen
   
-  - Click 'Cycle Start' on the Mach3 Screen
+  - **STEP 5**: Click 'Cycle Start' on the Mach3 Screen
   
-  - When prompted, jog the spindle down to within 5mm of the board and click 'Cycle Start' again.
+  - **STEP 6**: When prompted, jog the spindle down to within 5mm of the board and click 'Cycle Start' again.
   
-  - The CNC will begin probing the work piece. If at any point Guido seems to be plunging the bit into the copper, hit the red E-Stop button and check your connections.
+  - **STEP 7**: The CNC will begin probing the work piece. If at any point Guido seems to be plunging the bit into the copper, hit the red E-Stop button and check your connections.
   
-  - If you need to fix a connection and restart the process, be sure to use the 'Rewind' button in Mach3 before clicking 'Cycle Start' again.
+  - **STEP 8**: If you need to fix a connection and restart the process, be sure to use the 'Rewind' button in Mach3 before clicking 'Cycle Start' again.
+  
+  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
+  
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
     
 ### PCB SOLDERING
 
-#### BASIC INFORMATION
-
-
-
 #### MOVOEUVRE
+
+- Soldering a PCB
+
+  - **STEP 1**: Clean the tip
+  
+    When the iron hot, start with cleaning the tip to remove old solder from it. You can use a wet sponge, a copper scouring pad or something similar.
+    
+  - **STEP 2**: Tinning the tip
+  
+    Before you start soldering, you should tin the tip of the soldering iron. This makes the tip transfer heat faster and thereby making the soldering easier and faster. If you get any droplets of tin on your tip, use a sponge, a copper scouring pad or just shake it off.
+    
+  - **STEP 3**: Soldering two wires
+  
+    Start with tinning the two wires. It is useful to have something to hold one wire for you. Place the tip of the iron on the wire and let it heat for a second or three. Then add some solder until the wire is soaked with solder. If it is a thick wire, you should turn up the heat on your iron (if possible) to make the wire heat up faster. Repeat the tinning process on the other wire. Now place the two tinned wires together and hold still while heating them with the soldering iron so that the tin on both of the wires melt together.
+    
+  - **STEP 4**: Soldering on PBC hole
+  
+    Put the tip of the iron on the pad so that it heats both the lead of the part and the pad of the circuit board. Heat them for a second or so before you apply solder. Remove the iron and the solder wire and inspect your solder joint to see if it looks okay
+    
+![Break](https://raw.githubusercontent.com/ameenkb/ameenkb.github.io/master/Images/Blank.png)
 
 [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO SECTIONAL CONTENTS ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io/tutorial/#sectional-contents)  [![Back](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png) GO TO HOMEPAGE ![Arrow](https://cdn0.iconfinder.com/data/icons/navigation-set-arrows-part-one/32/DoubleChevronUp-20.png)](https://ameenkb.github.io)
